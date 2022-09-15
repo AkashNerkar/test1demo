@@ -1,0 +1,107 @@
+
+<html>
+    <head>
+        <title></title>
+        <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </head>
+    <body>
+     
+    <!-- <form action="/stud_value" method="post" >
+        <input type="text" name="name" placeholder="Name"><br><br>
+        <input type="text" name="mobile" placeholder="Mobie"><br><br>
+        <input type="number" name="age" placeholder="Age"><br><br><br>
+        <INPUT TYPE="FILE" NAME="stud_pic"><br>
+        <input type="submit" name="submit" value="Submit">
+    </form> -->
+    <div class="container">
+
+        <h2 class="text-success"><center>Detection of melicious domain</center></h2>
+        <hr class="danger">
+    </div>
+    <div class="container">
+        <div class="container">
+            
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">REMOTE APP PACKETS</label>
+                    <input type="text" name="remoteapp" class="form-control" value={{remoteapp}} placeholder="REMOTE APP PACKETS" readonly>
+                    
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">SOURCE APP BYTES</label>
+                    <input type="text" name="sourceapp" class="form-control" value={{sourceapp}} placeholder="SOURCE APP BYTES" readonly>
+                   
+                  </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">DIST. REMOTET CPPORT</label>
+                    <input type="text" name="remotecpprot" class="form-control" value={{remotecpprot}} placeholder="DIST. REMOTET CPPORT" readonly>
+                    
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">TCP CONVERSATION EXCHANGE</label>
+                      <input type="text" name="tcpexchange" class="form-control" value={{tcpexchange}} placeholder="TCP CONVERSATION EXCHANGE" readonly>
+                      
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="form-group">
+                      <label for="exampleInputEmail1">REMOTE IP'S</label>
+                      <input type="text" name="remoteip" class="form-control" value={{remoteip}} placeholder="REMOTE IP'S" readonly>
+                     
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">REMOTE APP BYTES</label>
+                        <input type="text" name="rmotebyte" class="form-control" value={{rmotebyte}} readonly aria-describedby="emailHelp" placeholder="REMOTE APP BYTES">
+                       
+                      </div>
+                  </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4">
+                    
+                </div>
+                <div class="col-sm-4">
+                   
+                </div>          
+                
+               
+              </div>
+          </div>
+       
+        
+        
+    </div>
+
+        <h2 class="text-primary"><center>Prediction Result</center></h2>        
+        <h3 class="text-success"><center>{{ans}}</center></h3>
+        <center><a href="home/" class="btn btn-danger">Go to the another prediction</a></center>   
+        
+    </div>
+
+       </body>
+ 
+    
+    </body>
+    </html>
