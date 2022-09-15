@@ -22,3 +22,4 @@ tzdata==2022.2
 virtualenv==20.16.5
 Werkzeug==2.2.2
 whitenoise==6.2.0
+waitress==1.4.4
